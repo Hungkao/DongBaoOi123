@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Mumbai Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 19.076,
+    "centerLongitude": 72.8777,
+    "radius": 15.5
+  },
+  {
+    "name": "Delhi Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 28.7041,
+    "centerLongitude": 77.1025,
+    "radius": 50.0
+  },
+  {
+    "name": "Chennai Tsunami Risk Zone",
+    "disasterType": "TSUNAMI",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 13.0827,
+    "centerLongitude": 80.2707,
+    "radius": 30.0
+  },
+  {
+    "name": "Kolkata Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "LOW",
+    "centerLatitude": 22.5726,
+    "centerLongitude": 88.3639,
+    "radius": 25.0
+  },
+  {
+    "name": "Shimla Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 31.1048,
+    "centerLongitude": 77.1734,
+    "radius": 12.0
+  },
+  {
+    "name": "Hyderabad Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "LOW",
+    "centerLatitude": 17.385,
+    "centerLongitude": 78.4867,
+    "radius": 40.0
+  },
+  {
+    "name": "Goa Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 15.2993,
+    "centerLongitude": 74.124,
+    "radius": 20.0
+  },
+  {
+    "name": "Pune Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 18.5204,
+    "centerLongitude": 73.8567,
+    "radius": 18.0
+  },
+  {
+    "name": "Bangalore Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 12.9716,
+    "centerLongitude": 77.5946,
+    "radius": 22.0
+  },
+  {
+    "name": "Shillong Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 25.5788,
+    "centerLongitude": 91.8933,
+    "radius": 10.0
+  },
+  {
+    "name": "Andaman Tsunami Zone",
+    "disasterType": "TSUNAMI",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 11.7401,
+    "centerLongitude": 92.6586,
+    "radius": 100.0
+  },
+  {
+    "name": "Manali Blizzard Zone",
+    "disasterType": "BLIZZARD",
+    "dangerLevel": "LOW",
+    "centerLatitude": 32.2396,
+    "centerLongitude": 77.1887,
+    "radius": 8.0
+  },
+  {
+    "name": "Rajasthan Tornado Zone",
+    "disasterType": "TORNADO",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 27.0238,
+    "centerLongitude": 74.2179,
+    "radius": 60.0
+  },
+  {
+    "name": "Meghalaya Sinkhole Zone",
+    "disasterType": "SINKHOLE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 25.467,
+    "centerLongitude": 91.3662,
+    "radius": 5.0
+  },
+  {
+    "name": "Kerala Wildfire Zone",
+    "disasterType": "WILDFIRE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 9.9312,
+    "centerLongitude": 76.2673,
+    "radius": 35.0
+  },
+  {
+    "name": "Nagpur Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "LOW",
+    "centerLatitude": 21.1458,
+    "centerLongitude": 79.0882,
+    "radius": 12.0
+  },
+  {
+    "name": "Ahmedabad Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 23.0225,
+    "centerLongitude": 72.5714,
+    "radius": 30.0
+  },
+  {
+    "name": "Visakhapatnam Tsunami Zone",
+    "disasterType": "TSUNAMI",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 17.6868,
+    "centerLongitude": 83.2185,
+    "radius": 20.0
+  },
+  {
+    "name": "Darjeeling Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 27.041,
+    "centerLongitude": 88.2663,
+    "radius": 15.0
+  },
+  {
+    "name": "Leh Blizzard Zone",
+    "disasterType": "BLIZZARD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 34.1526,
+    "centerLongitude": 77.577,
+    "radius": 25.0
+  },
+  {
+    "name": "Patna Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 25.5941,
+    "centerLongitude": 85.1376,
+    "radius": 18.0
+  },
+  {
+    "name": "Lucknow Tornado Zone",
+    "disasterType": "TORNADO",
+    "dangerLevel": "LOW",
+    "centerLatitude": 26.8467,
+    "centerLongitude": 80.9462,
+    "radius": 22.0
+  },
+  {
+    "name": "Sikkim Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 27.532,
+    "centerLongitude": 88.5122,
+    "radius": 12.0
+  },
+  {
+    "name": "Coimbatore Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "LOW",
+    "centerLatitude": 11.0168,
+    "centerLongitude": 76.9558,
+    "radius": 40.0
+  },
+  {
+    "name": "Thiruvananthapuram Tsunami Zone",
+    "disasterType": "TSUNAMI",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 8.5241,
+    "centerLongitude": 76.9366,
+    "radius": 45.0
+  },
+  {
+    "name": "Guwahati Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 26.1445,
+    "centerLongitude": 91.7362,
+    "radius": 28.0
+  },
+  {
+    "name": "Ooty Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "LOW",
+    "centerLatitude": 11.4064,
+    "centerLongitude": 76.6932,
+    "radius": 8.0
+  },
+  {
+    "name": "Kashmir Blizzard Zone",
+    "disasterType": "BLIZZARD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 34.0837,
+    "centerLongitude": 74.7973,
+    "radius": 50.0
+  },
+  {
+    "name": "Bhopal Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 23.2599,
+    "centerLongitude": 77.4126,
+    "radius": 22.0
+  },
+  {
+    "name": "Chandigarh Tornado Zone",
+    "disasterType": "TORNADO",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 30.7333,
+    "centerLongitude": 76.7794,
+    "radius": 35.0
+  },
+  {
+    "name": "Ranchi Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "LOW",
+    "centerLatitude": 23.3441,
+    "centerLongitude": 85.3096,
+    "radius": 15.0
+  },
+  {
+    "name": "Mysore Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 12.2958,
+    "centerLongitude": 76.6394,
+    "radius": 18.0
+  },
+  {
+    "name": "Puducherry Tsunami Zone",
+    "disasterType": "TSUNAMI",
+    "dangerLevel": "LOW",
+    "centerLatitude": 11.9416,
+    "centerLongitude": 79.8083,
+    "radius": 12.0
+  },
+  {
+    "name": "Gangtok Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 27.3314,
+    "centerLongitude": 88.6138,
+    "radius": 10.0
+  },
+  {
+    "name": "Uttarakhand Blizzard Zone",
+    "disasterType": "BLIZZARD",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 30.0668,
+    "centerLongitude": 79.0193,
+    "radius": 60.0
+  },
+  {
+    "name": "Vadodara Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 22.3072,
+    "centerLongitude": 73.1812,
+    "radius": 25.0
+  },
+  {
+    "name": "Surat Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "LOW",
+    "centerLatitude": 21.1702,
+    "centerLongitude": 72.8311,
+    "radius": 15.0
+  },
+  {
+    "name": "Nagaland Sinkhole Zone",
+    "disasterType": "SINKHOLE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 26.1584,
+    "centerLongitude": 94.5624,
+    "radius": 7.0
+  },
+  {
+    "name": "Kutch Wildfire Zone",
+    "disasterType": "WILDFIRE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 23.7337,
+    "centerLongitude": 69.8597,
+    "radius": 50.0
+  },
+  {
+    "name": "Allahabad Flood Zone",
+    "disasterType": "FLOOD",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 25.4358,
+    "centerLongitude": 81.8463,
+    "radius": 20.0
+  },
+  {
+    "name": "Indore Earthquake Zone",
+    "disasterType": "EARTHQUAKE",
+    "dangerLevel": "MEDIUM",
+    "centerLatitude": 22.7196,
+    "centerLongitude": 75.8577,
+    "radius": 25.0
+  },
+  {
+    "name": "Puri Tsunami Zone",
+    "disasterType": "TSUNAMI",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 19.8135,
+    "centerLongitude": 85.8312,
+    "radius": 30.0
+  },
+  {
+    "name": "Munnar Landslide Zone",
+    "disasterType": "LANDSLIDE",
+    "dangerLevel": "LOW",
+    "centerLatitude": 10.0889,
+    "centerLongitude": 77.0595,
+    "radius": 8.0
+  },
+  {
+    "name": "Kargil Blizzard Zone",
+    "disasterType": "BLIZZARD",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 34.5595,
+    "centerLongitude": 76.126,
+    "radius": 40.0
+  },
+  {
+    "name": "Jodhpur Tornado Zone",
+    "disasterType": "TORNADO",
+    "dangerLevel": "LOW",
+    "centerLatitude": 26.2389,
+    "centerLongitude": 73.0243,
+    "radius": 22.0
+  },
+  {
+    "name": "Imphal Sinkhole Zone",
+    "disasterType": "SINKHOLE",
+    "dangerLevel": "HIGH",
+    "centerLatitude": 24.817,
+    "centerLongitude": 93.9368,
+    "radius": 5.0
+  },
+  {
+    "name": "Coorg Wildfire Zone",
+    "disasterType": "WILDFIRE",
+    "dangerLevel": "LOW",
+    "centerLatitude": 12.3375,
+    "centerLongitude": 75.8069,
+    "radius": 15.0
+  }
+]

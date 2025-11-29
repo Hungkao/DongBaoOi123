@@ -1,0 +1,602 @@
+[
+  {
+    "disasterType": "FLOOD",
+    "title": "Move to Higher Ground",
+    "description": "During a flood, immediately seek higher floors or elevated areas. Take essential items like water, medicines, and important documents. Ensure everyone in your household is safe and stay tuned to emergency alerts.",
+    "disasterZoneId": 1
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Drop, Cover, and Hold On",
+    "description": "During an earthquake, drop to the ground, take cover under sturdy furniture, and hold on until shaking stops. Stay away from windows and objects that may fall. Have a designated safe spot at home and work for practice.",
+    "disasterZoneId": 2
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Head to Higher Ground",
+    "description": "If you receive a tsunami warning, evacuate immediately to higher ground or inland. Do not wait for official confirmation if you feel strong tremors or unusual ocean behavior. Carry emergency essentials and follow evacuation routes.",
+    "disasterZoneId": 3
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Avoid Walking Through Water",
+    "description": "Never attempt to walk through floodwaters. Even shallow water can sweep you off your feet or hide hazards like open manholes or debris. Keep children and pets away from water.",
+    "disasterZoneId": 4
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Evacuate Slopes Early",
+    "description": "During heavy rain or after an earthquake, slopes can fail without warning. Evacuate early if you notice cracks, tilted trees, or unusual water flow. Keep emergency supplies ready and stay informed about local alerts.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Seek Basement or Storm Shelter",
+    "description": "If a tornado warning is issued, move to a basement, storm cellar, or interior room without windows. Cover yourself with blankets or helmets to protect from debris. Avoid mobile homes and vehicles during tornadoes.",
+    "disasterZoneId": 13
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Avoid Collapsed Ground",
+    "description": "If you see sudden ground depressions or cracks, move to stable ground immediately. Do not approach the sinkhole as it can expand rapidly. Report to local authorities for assistance.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Evacuate Early",
+    "description": "When wildfires approach, evacuate as soon as advised. Keep emergency kits ready with masks, water, and essential documents. Protect pets and livestock and follow designated routes away from fire and smoke.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Stay Indoors",
+    "description": "During a blizzard, avoid travel and stay indoors. Keep extra blankets, food, and water. Ensure you have heating sources and stay updated with weather alerts. Conserve energy and avoid overexertion.",
+    "disasterZoneId": 12
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Turn Off Utilities",
+    "description": "Before evacuating, turn off electricity, gas, and water to prevent accidents. Floodwaters can cause electrical hazards and worsen damage.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Secure Heavy Furniture",
+    "description": "Anchor bookshelves, cabinets, and other heavy furniture to walls to prevent tipping during an earthquake. Place heavy items on lower shelves. Prepare an emergency kit for your household.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Do Not Return Too Soon",
+    "description": "After a tsunami, wait for official clearance before returning home. Flooded areas may have structural damage, contaminated water, or electrical hazards.",
+    "disasterZoneId": 3
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Keep Electronics Elevated",
+    "description": "Place electronics, appliances, and important documents on higher surfaces to avoid water damage. Backup data digitally in advance.",
+    "disasterZoneId": 1
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Watch Water Flow",
+    "description": "Monitor sudden increase in water flow from slopes, rivers, or drainage. Unusual water movement can indicate imminent landslide. Evacuate immediately to safer areas.",
+    "disasterZoneId": 10
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Avoid Windows",
+    "description": "During a tornado, stay away from windows to prevent injuries from shattered glass. Take cover in a low-lying interior area and protect your head.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Mark Unsafe Areas",
+    "description": "If a sinkhole appears, mark the area with visible barriers or warning signs. Alert neighbors and authorities. Do not attempt to fill or cover the hole yourself.",
+    "disasterZoneId": 14
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Create Defensible Space",
+    "description": "Clear dry leaves, dead plants, and flammable materials around your home. Maintain a safe perimeter to reduce fire spread and improve firefighter access.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Prevent Frostbite",
+    "description": "Wear multiple layers of clothing, cover extremities with gloves, hats, and boots. Limit exposure to freezing temperatures and avoid prolonged outdoor activity.",
+    "disasterZoneId": 12
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Listen to Weather Updates",
+    "description": "Keep a battery-powered or hand-crank radio to monitor flood warnings. Follow evacuation orders promptly and avoid taking risks during high water conditions.",
+    "disasterZoneId": 4
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Practice Evacuation Drills",
+    "description": "Regularly practice earthquake evacuation procedures at home and work. Ensure everyone knows safe spots, meeting points, and emergency contacts.",
+    "disasterZoneId": 2
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Move to Higher Ground",
+    "description": "Immediately move to higher ground or inland when a tsunami warning is issued. Avoid low-lying coastal areas and do not wait to see the wave.",
+    "disasterZoneId": 3
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Check Slope Stability",
+    "description": "Regularly inspect slopes near your home for cracks or unusual bulges. Heavy rainfall may trigger landslides; evacuate if the ground appears unstable.",
+    "disasterZoneId": 19
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Secure Loose Objects",
+    "description": "Bring outdoor furniture, tools, and toys indoors or tie them down securely. Flying debris during tornadoes is one of the main causes of injury.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Report Immediately",
+    "description": "Report sinkholes to local authorities immediately. Avoid building structures near areas with a history of ground subsidence or visible soil cracks.",
+    "disasterZoneId": 14
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Evacuation Plan",
+    "description": "Prepare an evacuation plan including multiple routes. Keep emergency supplies ready and follow official evacuation orders without delay.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Insulate Your Home",
+    "description": "Seal windows and doors to retain heat. Stock up on blankets, warm clothing, and food in case of power outages or being snowed in.",
+    "disasterZoneId": 12
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Avoid Driving",
+    "description": "Do not attempt to drive through flooded streets. Water depth is deceptive and vehicles can be swept away easily.",
+    "disasterZoneId": 1
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Turn Off Utilities",
+    "description": "Learn how to safely turn off gas, electricity, and water after an earthquake to prevent fires or further damage.",
+    "disasterZoneId": 2
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Emergency Kit",
+    "description": "Prepare a tsunami emergency kit including water, non-perishable food, flashlight, batteries, first aid supplies, and important documents.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Evacuate When Necessary",
+    "description": "If local authorities issue a landslide warning, evacuate immediately. Avoid valleys, slopes, and low-lying areas until declared safe.",
+    "disasterZoneId": 19
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Seek Shelter",
+    "description": "Go to a small, windowless interior room on the lowest floor, such as a basement, bathroom, or closet. Protect your head and neck with a helmet or thick blankets.",
+    "disasterZoneId": 13
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Avoid Water Accumulation",
+    "description": "Do not allow water to accumulate near weak soil areas. Poor drainage increases the risk of ground collapse.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Create Defensible Space",
+    "description": "Clear brush, dead plants, and flammable materials around your home to create a defensible space that slows wildfire spread.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Stay Indoors",
+    "description": "Avoid traveling during blizzards. Stay indoors and keep warm. Check on neighbors, especially the elderly, to ensure safety.",
+    "disasterZoneId": 20
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Move Valuables Upward",
+    "description": "Place valuable items and documents on higher floors. Keep important medications and essentials in waterproof bags.",
+    "disasterZoneId": 1
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Drop, Cover, Hold",
+    "description": "During an earthquake, drop to the ground, take cover under sturdy furniture, and hold on until shaking stops. Avoid windows and heavy objects.",
+    "disasterZoneId": 2
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Follow Evacuation Signs",
+    "description": "Coastal areas often have clearly marked tsunami evacuation routes. Know the nearest safe zones and follow signage during alerts.",
+    "disasterZoneId": 3
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Stay Away from Riverbanks",
+    "description": "Heavy rainfall can trigger landslides along riverbanks. Stay clear of these areas during storms.",
+    "disasterZoneId": 19
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Keep a Weather Radio",
+    "description": "Have a NOAA weather radio or app to receive real-time tornado alerts. Early warnings save lives.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Wear Protective Clothing",
+    "description": "If evacuating near a wildfire, wear long sleeves, long pants, sturdy boots, gloves, and a mask to protect against heat and smoke.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Insulate Your Home",
+    "description": "Seal windows and doors to keep cold air out. Use blankets, warm clothing, and heat sources safely to maintain body temperature.",
+    "disasterZoneId": 20
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Turn Off Utilities",
+    "description": "Shut off electricity, gas, and water if flooding is imminent. Avoid contact with floodwaters, which may be electrically charged or contaminated.",
+    "disasterZoneId": 4
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Secure Heavy Items",
+    "description": "Anchor heavy furniture, appliances, and shelves to walls to prevent toppling. Store breakable items in low cabinets.",
+    "disasterZoneId": 2
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Go to High Ground",
+    "description": "Immediately move to higher ground or inland when a tsunami warning is issued. Avoid low-lying areas and river estuaries.",
+    "disasterZoneId": 18
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Observe Soil Movement",
+    "description": "Check for cracks, tilting trees, or unusual sounds in hillside areas. These may indicate imminent landslide risk.",
+    "disasterZoneId": 23
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Keep Emergency Kit",
+    "description": "Store flashlights, batteries, first-aid kits, water, and non-perishable food in a secure place to use during a tornado emergency.",
+    "disasterZoneId": 13
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Avoid Construction on Weak Soil",
+    "description": "Do not build structures on areas known for karst landscapes or weak subsurface soil that may collapse.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Stay Low to Avoid Smoke",
+    "description": "If trapped in smoke, stay close to the ground where air is clearer. Cover your nose and mouth with damp cloth.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Prepare a Vehicle Emergency Kit",
+    "description": "Include blankets, food, water, a shovel, and sand or cat litter for traction. Keep your vehicle fueled if travel is necessary.",
+    "disasterZoneId": 12
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Do Not Drive Through Floodwaters",
+    "description": "Just 30 cm of moving water can sweep away a car. Wait for rescue or move to higher ground immediately.",
+    "disasterZoneId": 1
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Drop, Cover, and Hold On",
+    "description": "During shaking, drop to your hands and knees, cover your head and neck, and hold on to sturdy furniture. Avoid windows and heavy objects.",
+    "disasterZoneId": 17
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Listen to Alerts",
+    "description": "Follow official alerts via radio, TV, or smartphone apps. Evacuate immediately when tsunami warnings are issued.",
+    "disasterZoneId": 11
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Have Evacuation Plan",
+    "description": "Identify safe areas uphill and plan routes. Keep emergency supplies ready and evacuate promptly if conditions worsen.",
+    "disasterZoneId": 19
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Use Sturdy Shelter",
+    "description": "Go to a basement, storm cellar, or interior room without windows. Cover yourself with mattresses or heavy blankets to protect against debris.",
+    "disasterZoneId": 30
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Mark Unsafe Zones",
+    "description": "Avoid parking or walking near visible cracks or depressions in the ground. Report potential sinkholes to authorities.",
+    "disasterZoneId": 14
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Create Defensible Space",
+    "description": "Clear flammable vegetation around homes. Keep lawns short and remove debris to reduce fire spread.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Avoid Travel",
+    "description": "Stay indoors and avoid roads unless absolutely necessary. Road conditions can be treacherous, and emergency response may be delayed.",
+    "disasterZoneId": 28
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Keep Valuables on Higher Ground",
+    "description": "Move important documents, electronics, and personal items to elevated areas to reduce damage from rising water.",
+    "disasterZoneId": 9
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Check Utilities",
+    "description": "After shaking stops, check for gas leaks, water line damage, and electrical hazards before using utilities.",
+    "disasterZoneId": 32
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Follow Evacuation Routes",
+    "description": "Know local evacuation routes and safe zones. Move quickly but calmly to higher ground or inland areas.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Avoid River Valleys",
+    "description": "Stay away from river valleys and steep slopes during heavy rainfall. Sudden landslides can occur without warning.",
+    "disasterZoneId": 23
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Keep Emergency Kit",
+    "description": "Have a kit with water, food, flashlight, batteries, first-aid supplies, and important documents. Keep it in your shelter area.",
+    "disasterZoneId": 13
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Inspect Land Regularly",
+    "description": "Inspect areas prone to sinkholes for cracks, depressions, or unusual water accumulation, especially after heavy rain.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Evacuate Early",
+    "description": "Leave early when evacuation orders are given. Avoid smoke inhalation and do not attempt to stay and protect property.",
+    "disasterZoneId": 39
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Layer Clothing",
+    "description": "Wear multiple layers, hats, gloves, and insulated boots to prevent hypothermia. Keep warm and dry indoors.",
+    "disasterZoneId": 44
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Do Not Drive Through Floodwaters",
+    "description": "Even shallow water can sweep vehicles away. Turn around and find an alternate route.",
+    "disasterZoneId": 21
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Have Emergency Contacts",
+    "description": "Maintain a list of contacts for family and emergency services. Use text messages if phone networks are overloaded.",
+    "disasterZoneId": 17
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Move Vertically",
+    "description": "If inland evacuation is not possible, move to the upper floors of sturdy buildings to escape tsunami waves.",
+    "disasterZoneId": 3
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Listen to Weather Updates",
+    "description": "Monitor weather forecasts and alerts for landslide-prone areas. Heavy rainfall increases risk significantly.",
+    "disasterZoneId": 34
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Stay Low",
+    "description": "If no shelter is available, lie flat in a ditch or low-lying area and cover your head to protect against flying debris.",
+    "disasterZoneId": 45
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Avoid Construction Sites",
+    "description": "Avoid areas with active excavation or construction near known sinkhole-prone land. Sudden collapses can occur.",
+    "disasterZoneId": 46
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Clear Vegetation",
+    "description": "Maintain a defensible space by clearing dry leaves, brush, and flammable material around your property.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Emergency Supplies",
+    "description": "Stock up on essential food, water, heating fuel, and medications in case of extended isolation due to snow.",
+    "disasterZoneId": 12
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Move Valuables Higher",
+    "description": "Store important documents, electronics, and valuables on higher floors or shelves to prevent water damage.",
+    "disasterZoneId": 9
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Drop, Cover, Hold",
+    "description": "During tremors, drop to the ground, take cover under a sturdy table, and hold on until shaking stops.",
+    "disasterZoneId": 6
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Follow Evacuation Routes",
+    "description": "Move quickly to designated tsunami evacuation routes and safe zones. Do not return until authorities say it is safe.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Do Not Cross Mudflows",
+    "description": "Avoid crossing areas affected by mudflows or landslide debris. Flash floods may accompany landslides.",
+    "disasterZoneId": 10
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Secure Outdoor Objects",
+    "description": "Bring in or tie down loose outdoor objects, like chairs, signs, and trash cans, to prevent them from becoming projectiles.",
+    "disasterZoneId": 30
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Report Cracks Immediately",
+    "description": "Notify local authorities if you notice cracks in the ground, roads, or walls near sinkhole-prone areas.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Keep Emergency Exits Clear",
+    "description": "Ensure multiple evacuation paths are clear and accessible in case fire spreads rapidly.",
+    "disasterZoneId": 47
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Stay Indoors",
+    "description": "Avoid traveling during blizzards. Stay indoors and keep warm using proper clothing and heating methods. Keep emergency kits ready.",
+    "disasterZoneId": 20
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Turn Off Utilities",
+    "description": "Shut off electricity, gas, and water if flooding is imminent to prevent damage or electrocution.",
+    "disasterZoneId": 1
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Secure Heavy Objects",
+    "description": "Anchor heavy furniture, appliances, and water heaters to walls to reduce injuries during seismic activity.",
+    "disasterZoneId": 32
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Move to High Ground",
+    "description": "Immediately move to higher ground or inland upon receiving a tsunami warning. Avoid low-lying coastal areas.",
+    "disasterZoneId": 3
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Monitor Water Flow",
+    "description": "Stay alert to unusual water flow, sounds of cracking, or soil movement. Evacuate immediately if signs appear.",
+    "disasterZoneId": 19
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Stay in Basement",
+    "description": "Move to a basement or interior room without windows. Cover yourself with mattresses or blankets to avoid debris injuries.",
+    "disasterZoneId": 13
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Avoid Parking Over Weak Ground",
+    "description": "Do not park vehicles or place heavy objects over areas prone to sinkholes. Sudden collapses can trap vehicles.",
+    "disasterZoneId": 14
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Close Windows & Vents",
+    "description": "Close all windows, doors, and vents to prevent smoke from entering the building. Prepare a mask for breathing if needed.",
+    "disasterZoneId": 15
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Keep Pets Safe",
+    "description": "Bring pets indoors, provide extra food and water, and ensure they have warm bedding during extreme snow conditions.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Avoid Driving in Water",
+    "description": "Never drive through flooded roads. Just 30 cm of water can sweep away most vehicles.",
+    "disasterZoneId": 4
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Drop, Cover, and Hold On",
+    "description": "During shaking, drop to your hands and knees, cover your head and neck, and hold on to sturdy furniture. Avoid windows and heavy objects.",
+    "disasterZoneId": 2
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Listen to Alerts",
+    "description": "Pay attention to tsunami alerts via radio, TV, or phone notifications. Follow evacuation routes immediately when warned.",
+    "disasterZoneId": null
+  },
+  {
+    "disasterType": "LANDSLIDE",
+    "title": "Move to Higher Ground",
+    "description": "If you notice soil movement or hear cracking sounds, evacuate to higher ground immediately. Avoid river valleys.",
+    "disasterZoneId": 5
+  },
+  {
+    "disasterType": "TORNADO",
+    "title": "Protect Your Head",
+    "description": "Use a helmet, thick blankets, or cushions to protect your head from flying debris when taking shelter.",
+    "disasterZoneId": 30
+  },
+  {
+    "disasterType": "SINKHOLE",
+    "title": "Evacuate Unsafe Buildings",
+    "description": "Buildings near sudden depressions should be evacuated immediately to prevent injuries or fatalities from collapse.",
+    "disasterZoneId": 46
+  },
+  {
+    "disasterType": "WILDFIRE",
+    "title": "Create Defensible Space",
+    "description": "Clear dry vegetation and debris around your home to reduce fire spread. Keep a water source ready for emergency use.",
+    "disasterZoneId": 39
+  },
+  {
+    "disasterType": "BLIZZARD",
+    "title": "Use Snow Shovels Safely",
+    "description": "Shovel snow carefully to avoid exhaustion or heart attacks. Take frequent breaks and dress warmly.",
+    "disasterZoneId": 28
+  },
+  {
+    "disasterType": "FLOOD",
+    "title": "Move Valuables Higher",
+    "description": "Move valuable items, documents, and electronics to higher floors or shelves to prevent damage from rising water.",
+    "disasterZoneId": 26
+  },
+  {
+    "disasterType": "EARTHQUAKE",
+    "title": "Check Gas Lines",
+    "description": "After shaking stops, check for gas leaks and turn off the main valve if necessary to prevent fires.",
+    "disasterZoneId": 17
+  },
+  {
+    "disasterType": "TSUNAMI",
+    "title": "Avoid the Shoreline",
+    "description": "Do not return to coastal areas until authorities declare it safe. Multiple waves can occur hours apart.",
+    "disasterZoneId": 18
+  }
+]

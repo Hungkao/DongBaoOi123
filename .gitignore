@@ -1,0 +1,13 @@
+# Environment
+.env
+
+# IntelliJ / IDE
+.idea/
+*.iml
+.classpath
+.project
+
+# Build
+bin/
+target/
+node_modules/

@@ -14,8 +14,8 @@ function Auth() {
   });
 
   // Pre-filled admin credentials
-  const adminEmail = "admin@example.com";
-  const adminPassword = "admin";
+  const adminEmail = "admin@gmail.com";
+  const adminPassword = "123456";
 
   const isLogin = mode === "login";
   const isRegister = mode === "register";
@@ -30,14 +30,24 @@ function Auth() {
     setUserData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // Pre-fill admin credentials when admin mode is selected
+  useEffect(() => {
+    if (isAdmin) {
+      setUserData({
+        fullname: "",
+        email: adminEmail,
+        password: adminPassword,
+      });
+    }
+  }, [isAdmin, adminEmail, adminPassword]);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isRegister) {
       dispatch(register(userData));
-    } else if (isLogin) {
-      dispatch(login({ email: userData.email, password: userData.password }));
     } else {
-      dispatch(login({ email: adminEmail, password: adminPassword }));
+      // Both login and admin mode use the form data
+      dispatch(login({ email: userData.email, password: userData.password }));
     }
   };
 

@@ -15,7 +15,13 @@ public class GlobalCorsFilterConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(List.of("http://localhost:5173"));
+
+        // CẬP NHẬT: Thêm link Render của bạn vào danh sách cho phép
+        config.setAllowedOrigins(List.of(
+                "http://localhost:5173",
+                "https://dongbaooi-web.onrender.com"
+        ));
+
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setMaxAge(3600L);

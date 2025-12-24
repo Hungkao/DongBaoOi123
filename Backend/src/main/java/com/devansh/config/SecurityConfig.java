@@ -3,6 +3,7 @@ package com.devansh.config;
 import com.devansh.model.enums.Role;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod; // Cần import thêm dòng này
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -36,11 +37,19 @@ public class SecurityConfig {
     public SecurityFilterChain configure(HttpSecurity http) throws Exception {
 
         http
+                // 1. Tắt CSRF vì bạn đang sử dụng API Stateless (JWT)
                 .csrf(CsrfConfigurer::disable)
+                
+                // 2. Kích hoạt CORS ngay từ đầu để nó sử dụng bean corsConfiguration đã tiêm vào
+                .cors(c -> c.configurationSource(corsConfiguration))
+                
                 .authorizeHttpRequests(
                         authorize -> authorize
-                                .requestMatchers("/auth/**")
-                                .permitAll()
+                                // 3. QUAN TRỌNG: Cho phép tất cả các yêu cầu OPTIONS (Preflight) từ trình duyệt
+                                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                                
+                                // 4. Cho phép các API công khai phục vụ đăng ký/đăng nhập
+                                .requestMatchers("/auth/**").permitAll()
 
                                 .requestMatchers("/admin/**").hasRole(Role.ADMIN.name())
 
@@ -57,11 +66,8 @@ public class SecurityConfig {
                                 .addLogoutHandler(logoutHandler)
                                 .logoutSuccessHandler((request, response, authentication) ->
                                         SecurityContextHolder.clearContext()
-                                ))
-                .cors(c -> c.configurationSource(corsConfiguration));
+                                ));
 
         return http.build();
     }
-
 }
-

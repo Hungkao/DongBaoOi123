@@ -1,13 +1,13 @@
 package com.devansh.config;
 
 import com.devansh.model.enums.Role;
+import com.devansh.security.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod; // Cần import thêm dòng này
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configurers.CsrfConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.SecurityFilterChain;
@@ -21,42 +21,26 @@ public class SecurityConfig {
     private final JwtAuthenticationFilter jwtAuthFilter;
     private final AuthenticationProvider authenticationProvider;
     private final LogoutHandler logoutHandler;
-    private final CustomCorsConfiguration corsConfiguration;
 
     public SecurityConfig(JwtAuthenticationFilter jwtAuthFilter,
                           AuthenticationProvider authenticationProvider,
-                          LogoutHandler logoutHandler,
-                          CustomCorsConfiguration corsConfiguration) {
+                          LogoutHandler logoutHandler) {
         this.jwtAuthFilter = jwtAuthFilter;
         this.authenticationProvider = authenticationProvider;
         this.logoutHandler = logoutHandler;
-        this.corsConfiguration = corsConfiguration;
     }
 
     @Bean
     public SecurityFilterChain configure(HttpSecurity http) throws Exception {
 
         http
-                // 1. Kích hoạt CORS ngay từ đầu để nó sử dụng bean corsConfiguration đã tiêm vào
-                // Put .cors(...) FIRST as requested
-                .cors(c -> c.configurationSource(corsConfiguration))
-                
-                // 2. Tắt CSRF
-                .csrf(CsrfConfigurer::disable)
-                
-                .authorizeHttpRequests(
-                        authorize -> authorize
-                                // 3. QUAN TRỌNG: Cho phép tất cả các yêu cầu OPTIONS (Preflight) từ trình duyệt
-                                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                                
-                                // 4. Cho phép các API công khai phục vụ đăng ký/đăng nhập
-                                .requestMatchers("/auth/**").permitAll()
-
-                                .requestMatchers("/admin/**").hasRole(Role.ADMIN.name())
-
-                                .anyRequest()
-                                .authenticated()
-
+                .csrf(csrf -> csrf.disable())
+                .authorizeHttpRequests(authorize -> authorize
+                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                        .requestMatchers("/auth/**").permitAll()
+                        .requestMatchers("/admin/**").hasRole(Role.ADMIN.name())
+                        .anyRequest()
+                        .authenticated()
                 )
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

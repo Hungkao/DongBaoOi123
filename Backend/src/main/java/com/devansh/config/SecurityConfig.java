@@ -1,7 +1,6 @@
 package com.devansh.config;
 
 import com.devansh.model.enums.Role;
-import com.devansh.security.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
